@@ -1,21 +1,27 @@
-//
-//  ContentView.swift
-//  digimondex
-//
-//  Created by Marcus Ziadé on 14.1.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var digimonResponse: DigimonResponse = DigimonResponse(digimon: [])
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(digimonResponse.digimon) { d in
+            DigimonRow(digimon: d)
         }
-        .padding()
+        .task {
+            await digimon()
+        }
+    }
+    
+    let service = DigimonService()
+    
+    @MainActor func digimon() async {
+        do {
+            let digimonList = try await service.fetchAllDigimon()
+            digimonResponse = DigimonResponse(digimon: digimonList)
+        } catch {
+            print(error)
+        }
     }
 }
 

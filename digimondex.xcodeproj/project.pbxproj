@@ -7,61 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A450B952B54AD3F00F9857D /* DigimonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A450B942B54AD3F00F9857D /* DigimonRow.swift */; };
 		5A9EDE182B54765100878D0B /* digimondexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EDE172B54765100878D0B /* digimondexApp.swift */; };
 		5A9EDE1A2B54765100878D0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EDE192B54765100878D0B /* ContentView.swift */; };
 		5A9EDE1C2B54765200878D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9EDE1B2B54765200878D0B /* Assets.xcassets */; };
-		5A9EDE1F2B54765200878D0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9EDE1E2B54765200878D0B /* Preview Assets.xcassets */; };
-		5A9EDE292B54765200878D0B /* digimondexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EDE282B54765200878D0B /* digimondexTests.swift */; };
-		5A9EDE332B54765200878D0B /* digimondexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EDE322B54765200878D0B /* digimondexUITests.swift */; };
-		5A9EDE352B54765200878D0B /* digimondexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EDE342B54765200878D0B /* digimondexUITestsLaunchTests.swift */; };
+		5A9EDE422B5476CD00878D0B /* Digimon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EDE412B5476CD00878D0B /* Digimon.swift */; };
+		5A9EDE442B5477DE00878D0B /* DigimonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EDE432B5477DE00878D0B /* DigimonService.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5A9EDE252B54765200878D0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9EDE0C2B54765100878D0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A9EDE132B54765100878D0B;
-			remoteInfo = digimondex;
-		};
-		5A9EDE2F2B54765200878D0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9EDE0C2B54765100878D0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A9EDE132B54765100878D0B;
-			remoteInfo = digimondex;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		5A450B942B54AD3F00F9857D /* DigimonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigimonRow.swift; sourceTree = "<group>"; };
 		5A9EDE142B54765100878D0B /* digimondex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digimondex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9EDE172B54765100878D0B /* digimondexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digimondexApp.swift; sourceTree = "<group>"; };
 		5A9EDE192B54765100878D0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A9EDE1B2B54765200878D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A9EDE1E2B54765200878D0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5A9EDE242B54765200878D0B /* digimondexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = digimondexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A9EDE282B54765200878D0B /* digimondexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digimondexTests.swift; sourceTree = "<group>"; };
-		5A9EDE2E2B54765200878D0B /* digimondexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = digimondexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A9EDE322B54765200878D0B /* digimondexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digimondexUITests.swift; sourceTree = "<group>"; };
-		5A9EDE342B54765200878D0B /* digimondexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digimondexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A9EDE412B5476CD00878D0B /* Digimon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digimon.swift; sourceTree = "<group>"; };
+		5A9EDE432B5477DE00878D0B /* DigimonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigimonService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5A9EDE112B54765100878D0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9EDE212B54765200878D0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9EDE2B2B54765200878D0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				5A9EDE162B54765100878D0B /* digimondex */,
-				5A9EDE272B54765200878D0B /* digimondexTests */,
-				5A9EDE312B54765200878D0B /* digimondexUITests */,
 				5A9EDE152B54765100878D0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				5A9EDE142B54765100878D0B /* digimondex.app */,
-				5A9EDE242B54765200878D0B /* digimondexTests.xctest */,
-				5A9EDE2E2B54765200878D0B /* digimondexUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,35 +57,12 @@
 			children = (
 				5A9EDE172B54765100878D0B /* digimondexApp.swift */,
 				5A9EDE192B54765100878D0B /* ContentView.swift */,
+				5A450B942B54AD3F00F9857D /* DigimonRow.swift */,
+				5A9EDE432B5477DE00878D0B /* DigimonService.swift */,
 				5A9EDE1B2B54765200878D0B /* Assets.xcassets */,
-				5A9EDE1D2B54765200878D0B /* Preview Content */,
+				5A9EDE412B5476CD00878D0B /* Digimon.swift */,
 			);
 			path = digimondex;
-			sourceTree = "<group>";
-		};
-		5A9EDE1D2B54765200878D0B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5A9EDE1E2B54765200878D0B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5A9EDE272B54765200878D0B /* digimondexTests */ = {
-			isa = PBXGroup;
-			children = (
-				5A9EDE282B54765200878D0B /* digimondexTests.swift */,
-			);
-			path = digimondexTests;
-			sourceTree = "<group>";
-		};
-		5A9EDE312B54765200878D0B /* digimondexUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5A9EDE322B54765200878D0B /* digimondexUITests.swift */,
-				5A9EDE342B54765200878D0B /* digimondexUITestsLaunchTests.swift */,
-			);
-			path = digimondexUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +85,6 @@
 			productReference = 5A9EDE142B54765100878D0B /* digimondex.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A9EDE232B54765200878D0B /* digimondexTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9EDE3B2B54765200878D0B /* Build configuration list for PBXNativeTarget "digimondexTests" */;
-			buildPhases = (
-				5A9EDE202B54765200878D0B /* Sources */,
-				5A9EDE212B54765200878D0B /* Frameworks */,
-				5A9EDE222B54765200878D0B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A9EDE262B54765200878D0B /* PBXTargetDependency */,
-			);
-			name = digimondexTests;
-			productName = digimondexTests;
-			productReference = 5A9EDE242B54765200878D0B /* digimondexTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5A9EDE2D2B54765200878D0B /* digimondexUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9EDE3E2B54765200878D0B /* Build configuration list for PBXNativeTarget "digimondexUITests" */;
-			buildPhases = (
-				5A9EDE2A2B54765200878D0B /* Sources */,
-				5A9EDE2B2B54765200878D0B /* Frameworks */,
-				5A9EDE2C2B54765200878D0B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A9EDE302B54765200878D0B /* PBXTargetDependency */,
-			);
-			name = digimondexUITests;
-			productName = digimondexUITests;
-			productReference = 5A9EDE2E2B54765200878D0B /* digimondexUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +97,6 @@
 				TargetAttributes = {
 					5A9EDE132B54765100878D0B = {
 						CreatedOnToolsVersion = 15.1;
-					};
-					5A9EDE232B54765200878D0B = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 5A9EDE132B54765100878D0B;
-					};
-					5A9EDE2D2B54765200878D0B = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 5A9EDE132B54765100878D0B;
 					};
 				};
 			};
@@ -220,8 +114,6 @@
 			projectRoot = "";
 			targets = (
 				5A9EDE132B54765100878D0B /* digimondex */,
-				5A9EDE232B54765200878D0B /* digimondexTests */,
-				5A9EDE2D2B54765200878D0B /* digimondexUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,22 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9EDE1F2B54765200878D0B /* Preview Assets.xcassets in Resources */,
 				5A9EDE1C2B54765200878D0B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9EDE222B54765200878D0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9EDE2C2B54765200878D0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,40 +136,13 @@
 			files = (
 				5A9EDE1A2B54765100878D0B /* ContentView.swift in Sources */,
 				5A9EDE182B54765100878D0B /* digimondexApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9EDE202B54765200878D0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9EDE292B54765200878D0B /* digimondexTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9EDE2A2B54765200878D0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9EDE352B54765200878D0B /* digimondexUITestsLaunchTests.swift in Sources */,
-				5A9EDE332B54765200878D0B /* digimondexUITests.swift in Sources */,
+				5A450B952B54AD3F00F9857D /* DigimonRow.swift in Sources */,
+				5A9EDE422B5476CD00878D0B /* Digimon.swift in Sources */,
+				5A9EDE442B5477DE00878D0B /* DigimonService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5A9EDE262B54765200878D0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A9EDE132B54765100878D0B /* digimondex */;
-			targetProxy = 5A9EDE252B54765200878D0B /* PBXContainerItemProxy */;
-		};
-		5A9EDE302B54765200878D0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A9EDE132B54765100878D0B /* digimondex */;
-			targetProxy = 5A9EDE2F2B54765200878D0B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5A9EDE362B54765200878D0B /* Debug */ = {
@@ -421,7 +271,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"digimondex/Preview Content\"";
 				DEVELOPMENT_TEAM = P4DQK6SRKR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -450,7 +299,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"digimondex/Preview Content\"";
 				DEVELOPMENT_TEAM = P4DQK6SRKR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -472,82 +320,6 @@
 			};
 			name = Release;
 		};
-		5A9EDE3C2B54765200878D0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4DQK6SRKR;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.digimondexTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/digimondex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/digimondex";
-			};
-			name = Debug;
-		};
-		5A9EDE3D2B54765200878D0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4DQK6SRKR;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.digimondexTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/digimondex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/digimondex";
-			};
-			name = Release;
-		};
-		5A9EDE3F2B54765200878D0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4DQK6SRKR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.digimondexUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = digimondex;
-			};
-			name = Debug;
-		};
-		5A9EDE402B54765200878D0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4DQK6SRKR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.digimondexUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = digimondex;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,24 +337,6 @@
 			buildConfigurations = (
 				5A9EDE392B54765200878D0B /* Debug */,
 				5A9EDE3A2B54765200878D0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A9EDE3B2B54765200878D0B /* Build configuration list for PBXNativeTarget "digimondexTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A9EDE3C2B54765200878D0B /* Debug */,
-				5A9EDE3D2B54765200878D0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A9EDE3E2B54765200878D0B /* Build configuration list for PBXNativeTarget "digimondexUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A9EDE3F2B54765200878D0B /* Debug */,
-				5A9EDE402B54765200878D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
